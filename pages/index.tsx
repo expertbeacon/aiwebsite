@@ -174,8 +174,8 @@ export default function Dashboard() {
                 />
             </div>
             <div className='w-full mt-12 absolute bottom-[10px]'>
-                 <p className='text-center text-[#636262]'>© 2023 <a className='text-sky-500' href='/' target='_blank'>AIWebsiteGenerator.com.</a> All rights reserved.</p>
-                <p className='text-center text-[#636262]'>Privacy Policy|Terms of Service</p>
+                 <p className='text-center text-[#636262]'>© 2024 <a className='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
+                <p className='text-center text-[#636262]'><a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Terms of Service</a></p>
             </div>   
         </div>
     );
