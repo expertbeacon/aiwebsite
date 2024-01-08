@@ -45,7 +45,7 @@ export default () => {
             </li>
             <li className="mx-2">
                 <a
-                  href="https://github.com/sparrow-js/ant-codeAI"
+                  href="https://github.com/expertbeacon/aiwebsite/"
                   target="_blank"
                   className="hover:text-[#2752f4]"
                 >
@@ -53,7 +53,7 @@ export default () => {
                 </a>
             </li>
             <li className="mx-2">
-              <a href="https://github.com/expertbeacon/aiwebsite/" target="_blank">
+              <a href="#" target="_blank">
                 <svg
                   width="27"
                   height="39"
