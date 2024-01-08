@@ -14,7 +14,7 @@ export default () => {
   return (
     <header className="flex items-center p-4 justify-between">
       <div>
-        <img className="w-[160px]" src="/HTMLGenerator.png" />
+        <img className="w-[200px]" src="/HTMLGenerator.png" />
       </div>
       <div className="flex items-center">
         <div className="flex-1">
@@ -37,7 +37,7 @@ export default () => {
             </li>
             <li className="mr-2 hover:bg-slate-200 rounded-sm p-2">
                 <a
-                  href="https://github.com/sparrow-js/ant-codeAI/blob/main/README.md"
+                  href="https://github.com/expertbeacon/aiwebsite/blob/main/README.md"
                   target="_blank"
                 >
                   <MdOutlineHelp className="text-xl" />
@@ -53,7 +53,7 @@ export default () => {
                 </a>
             </li>
             <li className="mx-2">
-              <a href="https://www.buymeacoffee.com/sparrowwhtl" target="_blank">
+              <a href="https://github.com/expertbeacon/aiwebsite/" target="_blank">
                 <svg
                   width="27"
                   height="39"
