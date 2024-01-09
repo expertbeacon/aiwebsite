@@ -87,9 +87,6 @@ export default function Dashboard() {
             <div className='fixed w-full bg-slate-50 z-20'>
                 <Header />
             </div>
-                <div style="text-align: center; max-width: 520px;">
-                <h1>AI-Powered Html Generator for Website Code Creation</h1>
-                </div>
             <main>
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
@@ -126,7 +123,6 @@ export default function Dashboard() {
                             showAnim={showAnim}
                         />
                     </div>
-                    
                 </div>
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
                     <p className='text-center mb-4 text-lg'>Join our community to discuss</p>
@@ -148,6 +144,9 @@ export default function Dashboard() {
                         <WechatDialog />
                         <QqDialog />
                     </div>
+  <div className='flex flex-col w-full items-center justify-center mt-14'> 
+      <p>HTMLGenerator.ai provides a free Gemini Pro API for basic use. For enhanced performance, especially when multiple users are online, consider using your own OpenAI key. Click the gear icon in the top-right corner to access settings and customize your own OPENAI Key. </p>
+ </div>
                 </div>         
                 {/* { IS_RUNNING_ON_CLOUD &&
                     !(settings.openAiApiKey) && settings.init && (
@@ -178,8 +177,8 @@ export default function Dashboard() {
                 />
             </div>
 <section class="py-10 bg-white sm:py-16 lg:py-24">
-    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">How to Use Html Generator</h2>
+      <div className='flex flex-col w-full items-center justify-center mt-14'> 
+        <h3 className='text-center mb-4 text-lg'>How to Use Html Generator</h3>
                      <p class="mt-3 text-base text-gray-600">Welcome to HTMLGenerator.ai, the cutting-edge tool that leverages AI to simplify web development. Our platform supports an array of frameworks and libraries, including HTML with Tailwind, React, Vue, and Bootstrap. Here’s a quick guide on how to use HTMLGenerator.ai.</p>
         
         <div class="flow-root mt-12 sm:mt-16">
@@ -212,11 +211,11 @@ export default function Dashboard() {
                     </p>
                 </div>
             </div>
-            <p>Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!"</p>
+            <p class="mt-3 text-base text-gray-600"> Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!"</p>
         </div>
     </div>
 </section>
-
+            
             <div className='w-full mt-12'>
                  <p className='text-center text-[#636262]'>© 2024 <a className='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
                 <p className='text-center text-[#636262]'><a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Terms of Service</a></p>
