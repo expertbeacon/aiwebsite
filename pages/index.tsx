@@ -176,7 +176,7 @@ export default function Dashboard() {
 <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
-            <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Html Generator - Get Website code in few clicks</h1>
+            <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">AI-Powered Html Generator for Website Code Creation</h1>
             <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!</p>
         </div>
     </div>
@@ -217,6 +217,72 @@ export default function Dashboard() {
         </div>
     </div>
 </section>
+            <section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-2xl font-bold text-gray-800 sm:text-4xl sm:leading-tight">Trusted by world class companies, design teams & popular AI web designers</h2>
+        </div>
+
+        <div class="grid items-center max-w-4xl grid-cols-2 mx-auto mt-12 md:mt-20 md:grid-cols-4 gap-x-10 gap-y-16">
+            <div>
+                <img class="object-contain w-full h-6 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-1.png" alt="" />
+            </div>
+
+            <div>
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-2.png" alt="" />
+            </div>
+
+            <div>
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-3.png" alt="" />
+            </div>
+
+            <div>
+                <img class="object-contain w-full mx-auto h-7" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-4.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-5.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-6.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-7.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-8.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-9.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full mx-auto h-7" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-10.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-11.png" alt="" />
+            </div>
+
+            <div class="hidden md:block">
+                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-12.png" alt="" />
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center mt-10 space-x-3 md:hidden">
+            <div class="w-2.5 h-2.5 rounded-full bg-blue-600 block"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
+        </div>
+
+        <p class="mt-10 text-base text-center text-gray-500 md:mt-20">and, 3000+ more webmaster</p>
+    </div>
+</section>
+
             
             <div className='w-full mt-12'>
                  <p className='text-center text-[#636262]'>© 2024 <a className='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
