@@ -173,6 +173,46 @@ export default function Dashboard() {
                     }}
                 />
             </div>
+<section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">How to Use Html Generator</h2>
+                     <p class="mt-3 text-base text-gray-600">Welcome to HTMLGenerator.ai, the cutting-edge tool that leverages AI to simplify web development. Our platform supports an array of frameworks and libraries, including HTML with Tailwind, React, Vue, and Bootstrap. Here’s a quick guide on how to use HTMLGenerator.ai.</p>
+        
+        <div class="flow-root mt-12 sm:mt-16">
+            <div class="divide-y divide-gray--200 -my-9">
+                <div class="py-9">
+                    <p class="text-xl font-semibold text-black">Idea to Code</p>
+                    <p class="mt-3 text-base text-gray-600">Start by typing your website idea or requirement directly into the search box. Our AI will interpret your concept and generate the corresponding HTML code.</p>
+                </div>
+
+                <div class="py-9">
+                    <p class="text-xl font-semibold text-black">Screenshot Upload</p>
+                    <p class="mt-3 text-base text-gray-600">Have a design mock-up? Upload a screenshot, and our AI will convert the image into a fully functional HTML structure, complete with Tailwind styling.</p>
+                </div>
+
+                <div class="py-9">
+                    <p class="text-xl font-semibold text-black">Whiteboard Feature</p>
+                    <p class="mt-3 text-base text-gray-600">Utilize the whiteboard to draw your website structure. Our AI editor understands your sketches and turns them into clean, maintainable code.</p>
+                </div>
+
+                <div class="py-9">
+                    <p class="text-xl font-semibold text-black">Select a Template</p>
+                    <p class="mt-3 text-base text-gray-600">
+                       Choose from pre-optimized templates with popular combinations like React with Tailwind or Vue with Element Plus. Customize as needed.
+                    </p>
+                </div>
+                <div class="py-9">
+                    <p class="text-xl font-semibold text-black">AI Model Selection</p>
+                    <p class="mt-3 text-base text-gray-600">
+                       For intricate designs, select between OpenAI and Gemini LLM for nuanced code generation. OpenAI models tend to deliver superior results for complex tasks.
+                    </p>
+                </div>
+            </div>
+            Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!"
+        </div>
+    </div>
+</section>
+
             <div className='w-full mt-12 absolute bottom-[10px]'>
                  <p className='text-center text-[#636262]'>© 2024 <a className='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
                 <p className='text-center text-[#636262]'><a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Terms of Service</a></p>
