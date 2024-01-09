@@ -88,14 +88,6 @@ export default function Dashboard() {
                 <Header />
             </div>
             <main>
- <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto text-center">
-            <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Html </h1>
-            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!</p>
-        </div>
-    </div>
-</section>
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
                         onClick={open}
@@ -181,10 +173,17 @@ export default function Dashboard() {
                     }}
                 />
             </div>
-
+<section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Html Generator - Get Website code in few clicks</h1>
+            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!</p>
+        </div>
+    </div>
+</section>
 <section class="py-10 bg-white sm:py-16 lg:py-24">
     <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Why Use HtmlGenerator.ai</h2>                  
+        <h3 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Why Use HtmlGenerator.ai</h3>                  
         <div class="flow-root mt-12 sm:mt-16">
             <div class="divide-y divide-gray--200 -my-9">
                 <div class="py-9">
@@ -215,7 +214,6 @@ export default function Dashboard() {
                     </p>
                 </div>
             </div>
-            <p class="mt-3 text-base text-gray-600"> Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!"</p>
         </div>
     </div>
 </section>
