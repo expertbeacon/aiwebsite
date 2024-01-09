@@ -88,6 +88,14 @@ export default function Dashboard() {
                 <Header />
             </div>
             <main>
+ <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Html </h1>
+            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Transform your web development experience with HTMLGenerator.ai, where your visual concepts and ideas become reality in just a few clicks!</p>
+        </div>
+    </div>
+</section>
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
                         onClick={open}
