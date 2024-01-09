@@ -183,7 +183,7 @@ export default function Dashboard() {
 </section>
 <section class="py-10 bg-white sm:py-16 lg:py-24">
     <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
-        <h3 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Why Use HtmlGenerator.ai</h3>                  
+         <h2 class="text-2xl font-bold text-gray-800 sm:text-4xl sm:leading-tight">Why Choose HtmlGenerator.ai: AI-Driven HTML Coding</h2>                  
         <div class="flow-root mt-12 sm:mt-16">
             <div class="divide-y divide-gray--200 -my-9">
                 <div class="py-9">
