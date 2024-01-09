@@ -125,7 +125,7 @@ export default function Dashboard() {
                     </div>
                 </div>
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
-                    <p className='text-center mb-4 text-lg'>Join our community to discuss</p>
+                     <p className='text-center mb-4 text-lg'>We provides a free Gemini Pro API for basic use. For enhanced performance, especially when multiple users are online, consider using your own OpenAI key. Click the gear icon in the top-right corner to access settings and customize your own OPENAI Key.</p>
                     <div className='flex justify-center items-center gap-2'>
                         <a className='hover:bg-[#0172aa] rounded p-2 bg-[#0088cc] text-white flex justify-center items-center' href='https://discord.gg/zBYCS7EHNM' target="_blank" rel="nofollow">
                             <span className='mr-2 flex justify-center items-center'>
@@ -173,6 +173,7 @@ export default function Dashboard() {
                     }}
                 />
             </div>
+            <strong><p className='text-center mb-4 text-lg'>Join our community to discuss</p></strong>
 <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
