@@ -87,6 +87,9 @@ export default function Dashboard() {
             <div className='fixed w-full bg-slate-50 z-20'>
                 <Header />
             </div>
+                 <div style="text-align: center; max-width: 520px;">
+                <h1>AI-Powered Html Generator for Website Code Creation</h1>
+                </div>
             <main>
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
