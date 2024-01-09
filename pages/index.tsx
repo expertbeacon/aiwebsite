@@ -144,13 +144,6 @@ export default function Dashboard() {
                         <WechatDialog />
                         <QqDialog />
                     </div>
-  <div className='flex flex-col w-full items-center justify-center mt-14'> 
-  <section class="py-10 bg-white sm:py-16 lg:py-24">
-      <div className='flex flex-col w-full items-center justify-center mt-14'> 
-      <p>HTMLGenerator.ai provides a free Gemini Pro API for basic use. For enhanced performance, especially when multiple users are online, consider using your own OpenAI key. Click the gear icon in the top-right corner to access settings and customize your own OPENAI Key. </p>
-      </div>
-  </section>    
- </div>
                 </div>         
                 {/* { IS_RUNNING_ON_CLOUD &&
                     !(settings.openAiApiKey) && settings.init && (
@@ -180,11 +173,10 @@ export default function Dashboard() {
                     }}
                 />
             </div>
+
 <section class="py-10 bg-white sm:py-16 lg:py-24">
-      <div className='flex flex-col w-full items-center justify-center mt-14'> 
-        <h3 className='text-center mb-4 text-lg'>Why Use HtmlGenerator.ai - Way to get website code</h3>
-                     <p class="mt-3 text-base text-gray-600">Welcome to HTMLGenerator.ai, the cutting-edge tool that leverages AI to simplify web development. Our platform supports an array of frameworks and libraries, including HTML with Tailwind, React, Vue, and Bootstrap. Here’s a quick guide on how to use HTMLGenerator.ai.</p>
-        
+    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Why Use HtmlGenerator.ai</h2>                  
         <div class="flow-root mt-12 sm:mt-16">
             <div class="divide-y divide-gray--200 -my-9">
                 <div class="py-9">
