@@ -87,6 +87,9 @@ export default function Dashboard() {
             <div className='fixed w-full bg-slate-50 z-20'>
                 <Header />
             </div>
+            <div style="text-align: center; max-width: 520px;">
+                <h1>AI-Powered Html Generator for Website Code Creation</h1>
+                </div>
             <main>
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
@@ -216,10 +219,6 @@ export default function Dashboard() {
         </div>
     </div>
 </section>
-           <div 
-    class='w-full absolute bottom-0 left-0'
-    style="display: flex; justify-content: center; align-items: center;"
->
     <div style="text-align: center; max-width: 520px;">
         <p class='text-center text-[#636262]'>© 2024 <a class='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
         <p class='text-center text-[#636262]'><a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Terms of Service</a></p>
