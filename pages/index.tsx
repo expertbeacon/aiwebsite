@@ -125,7 +125,6 @@ export default function Dashboard() {
                     </div>
                 </div>
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
-                     <p className='text-center mb-4 text-lg'>We provides a free Gemini Pro API for basic use. For enhanced performance, especially when multiple users are online, consider using your own OpenAI key. Click the gear icon in the top-right corner to access settings and customize your own OPENAI Key.</p>
                     <div className='flex justify-center items-center gap-2'>
                         <a className='hover:bg-[#0172aa] rounded p-2 bg-[#0088cc] text-white flex justify-center items-center' href='https://discord.gg/zBYCS7EHNM' target="_blank" rel="nofollow">
                             <span className='mr-2 flex justify-center items-center'>
@@ -174,6 +173,15 @@ export default function Dashboard() {
                 />
             </div>
             <strong><p className='text-center mb-4 text-lg'>Join our community to discuss</p></strong>
+            <p className='text-center mb-4 text-lg'>We will periodically share free OpenAI keys in the community.</p>
+            <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <h3 class="text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">Integrated with a free Gemini Pro API.</h3>
+            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">We provides a free Gemini Pro API for basic use. For enhanced performance, especially when multiple users are online, consider using your own OpenAI key. Click the gear icon in the top-right corner to access settings and customize your own OPENAI Key.</p>
+        </div>
+    </div>
+</section>
 <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
