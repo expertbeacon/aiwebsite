@@ -53,7 +53,7 @@ export default () => {
                 </a>
             </li>
             <li className="mx-2">
-              <a href="#" target="_blank">
+              <a href="https://www.buymeacoffee.com/privateproxies" target="_blank">
                 <svg
                   width="27"
                   height="39"
