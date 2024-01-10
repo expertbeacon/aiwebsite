@@ -16,6 +16,8 @@ export default function Document() {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="HTML Generator - Free AI-Powered Website Code Creation" />
     <meta name="twitter:description" content="Streamline web design with HTMLGenerator.ai: Convert ideas and images to HTML code instantly using AI, with Tailwind, React, and Vue support." />
+    <link rel="icon" href="/icon.png" sizes="512x512">
+    <link rel="apple-touch-icon" href="/icon.png" sizes="180x180">
         <script id="inline-script" dangerouslySetInnerHTML={{ __html: `window.EXCALIDRAW_ASSET_PATH = "/"` }} />
       </Head>
       <body>
