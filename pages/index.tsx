@@ -87,9 +87,7 @@ export default function Dashboard() {
             <div className='fixed w-full bg-slate-50 z-20'>
                 <Header />
             </div>
-            <main>
-<section class="py-10 bg-white sm:py-16 lg:py-24">
-    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">                
+            <main>          
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
                         onClick={open}
@@ -115,9 +113,10 @@ export default function Dashboard() {
                         <span className='relative text-white'>ideas</span>
                     </div>
                 </div>
-
+<section class="py-10 bg-white sm:py-16 lg:py-24">
+<div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">      
                 <div className="w-full bg-white dark:bg-gray-800 border-t dark:border-t-gray-600 flex-col flex items-center justify-between p-3">
-                    <div className="relative mt-96 w-[520px] rounded-md shadow-sm">
+                    <div className="relative mt-96 w-[500px] rounded-md shadow-sm">
                         <ChatInput
                             openWhiteboard={() => {
                                 setOpenWhiteboard(true);
@@ -126,6 +125,8 @@ export default function Dashboard() {
                         />
                     </div>
                 </div>
+</div>
+</section>
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
                     <div className='flex justify-center items-center gap-2'>
                         <a className='hover:bg-[#0172aa] rounded p-2 bg-[#0088cc] text-white flex justify-center items-center' href='https://discord.gg/zBYCS7EHNM' target="_blank" rel="nofollow">
@@ -176,8 +177,6 @@ export default function Dashboard() {
             </div>
             <strong><p className='text-center mb-4 text-lg'>Join our community to discuss</p></strong>
             <p className='text-center mb-4 text-lg'>We will periodically share free OpenAI keys in the community.</p>
-    </div>
-</section>
     <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
