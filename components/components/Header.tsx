@@ -76,6 +76,16 @@ export default () => {
           </ul>
         </div>
       </div>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X9M3GLMV8S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X9M3GLMV8S');
+</script>
+        <script id="inline-script" dangerouslySetInnerHTML={{ __html: `window.EXCALIDRAW_ASSET_PATH = "/"` }} />
     </header>
   );
 };
