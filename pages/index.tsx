@@ -292,16 +292,6 @@ export default function Dashboard() {
         <p class="mt-10 text-base text-center text-gray-500 md:mt-20">and, 3000+ more webmaster</p>
     </div>
 </section>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X9M3GLMV8S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X9M3GLMV8S');
-</script>
-        <script id="inline-script" dangerouslySetInnerHTML={{ __html: `window.EXCALIDRAW_ASSET_PATH = "/"` }} />
             
             <div className='w-full mt-12'>
                  <p className='text-center text-[#636262]'>© 2024 <a className='text-sky-500' href='/' target='_blank'>HTMLGenerator.ai</a> All rights reserved.</p>
