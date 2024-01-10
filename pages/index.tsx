@@ -125,8 +125,7 @@ export default function Dashboard() {
                         />
                     </div>
                 </div>
-</div>
-</section>
+    
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
                     <div className='flex justify-center items-center gap-2'>
                         <a className='hover:bg-[#0172aa] rounded p-2 bg-[#0088cc] text-white flex justify-center items-center' href='https://discord.gg/zBYCS7EHNM' target="_blank" rel="nofollow">
@@ -146,7 +145,9 @@ export default function Dashboard() {
                         <WechatDialog />
                         <QqDialog />
                     </div>
-                </div>         
+                </div>   
+</div>
+</section>
                 {/* { IS_RUNNING_ON_CLOUD &&
                     !(settings.openAiApiKey) && settings.init && (
                     <div className="fixed left-[20px] bottom-[20px] z-[49]">
