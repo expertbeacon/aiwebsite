@@ -113,7 +113,6 @@ export default function Dashboard() {
                         <span className='relative text-white'>ideas</span>
                     </div>
                 </div>
-<section class="py-5 border-0">
 <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">      
                 <div className="w-full bg-white dark:bg-gray-800 border-t dark:border-t-gray-600 flex-col flex items-center justify-between p-3">
                     <div className="relative mt-96 w-[600px] rounded-md shadow-sm">
@@ -176,7 +175,6 @@ export default function Dashboard() {
             </div>
             <strong><p className='text-center mb-4 text-lg'>Join our community to discuss</p></strong>
             <p className='text-center mb-4 text-lg'>We will periodically share free OpenAI keys in the community.</p>
-</section>
   <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
