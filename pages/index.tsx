@@ -113,20 +113,18 @@ export default function Dashboard() {
                         <span className='relative text-white'>ideas</span>
                     </div>
                 </div>
-<section class="py-10 bg-white sm:py-16 lg:py-24">
-  <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">      
-    <div class="w-full bg-white dark:bg-gray-800 border-t dark:border-t-gray-600 flex-col flex items-center justify-between p-3">
-      <div class="relative mt-8 sm:mt-96 w-full max-w-full rounded-md shadow-sm">
-        <ChatInput
-          openWhiteboard={() => {
-            setOpenWhiteboard(true);
-          }}
-          showAnim={showAnim}
-        />
-      </div>
+<div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">      
+  <div class="w-full bg-white dark:bg-gray-800 border-t dark:border-t-gray-600 flex-col flex items-center justify-between p-3">
+    <div class="relative mt-8 sm:mt-96 w-full max-w-[600px] rounded-md shadow-sm">
+      <ChatInput
+        openWhiteboard={() => {
+          setOpenWhiteboard(true);
+        }}
+        showAnim={showAnim}
+      />
     </div>
   </div>
-</section>
+</div>
                 <div className='flex flex-col w-full items-center justify-center mt-14'>
                     <div className='flex justify-center items-center gap-2'>
                         <a className='hover:bg-[#0172aa] rounded p-2 bg-[#0088cc] text-white flex justify-center items-center' href='https://discord.gg/zBYCS7EHNM' target="_blank" rel="nofollow">
