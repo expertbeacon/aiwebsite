@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -18,7 +17,6 @@ export default function Document() {
     <meta name="twitter:title" content="HTML Generator - Free AI-Powered Website Code Creation" />
     <meta name="twitter:description" content="Streamline web design with HTMLGenerator.ai: Convert ideas and images to HTML code instantly using AI, with Tailwind, React, and Vue support." />
     <link rel="icon" type="image/png" href="/icon.png">
-    <link rel="apple-touch-icon" href="/icon.png" sizes="180x180">
     <script id="inline-script" dangerouslySetInnerHTML={{ __html: `window.EXCALIDRAW_ASSET_PATH = "/"` }} />
       </Head>
       <body>
