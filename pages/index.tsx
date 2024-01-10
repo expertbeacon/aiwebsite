@@ -88,6 +88,8 @@ export default function Dashboard() {
                 <Header />
             </div>
             <main>
+<section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">                
                 <div className='fixed right-0 top-20 w-[115px] flex flex-col items-center  justify-center py-6 gap-12'>
                     <div
                         onClick={open}
@@ -174,7 +176,9 @@ export default function Dashboard() {
             </div>
             <strong><p className='text-center mb-4 text-lg'>Join our community to discuss</p></strong>
             <p className='text-center mb-4 text-lg'>We will periodically share free OpenAI keys in the community.</p>
-<section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    </div>
+</section>
+    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
             <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">AI-Powered Html Generator for Website Code Creation</h1>
